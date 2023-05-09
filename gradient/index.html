@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/duong.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gradient</title>
+  </head>
+  <body>
+    <div class="gradient">
+      <div class="box">
+        background: linear-gradient(<select
+          name="position"
+          id="select"
+          class="select"
+          title="to where?"
+        >
+          <option value="to-right">to right</option>
+          <option value="to-left">to left</option>
+          <option value="to-top">to top</option>
+          <option value="to-bottom">to bottom</option>
+          <option value="to-top-right">to top right</option>
+          <option value="to-top-left">to top left</option>
+          <option value="to-bottom-right">to bottom right</option>
+          <option value="to-bottom-left">to bottom left</option></select
+        >,#<input
+          minlength="3"
+          maxlength="6"
+          type="text"
+          class="input"
+          id="input1"
+          placeholder="999491"
+        />,#<input
+          minlength="3"
+          maxlength="6"
+          type="text"
+          class="input"
+          id="input2"
+          placeholder="FF993C"
+        />);
+      </div>
+      <p class="alert toast">Click button to copy css!</p>
+      <p class="css alert"></p>
+      <button type="button" class="button">Copy</button>
+      <button type="button" class="exit">
+        <a href="/">Exit</a>
+      </button>
+    </div>
+    <script src="index.js"></script>
+    <script src="/assets/scripts.js"></script>
+  </body>
+</html>
