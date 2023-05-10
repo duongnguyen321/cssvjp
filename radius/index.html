@@ -11,11 +11,13 @@
   <body>
     <div class="radius">
       <div class="box">
+        <select name="value" id="value" class="select" title="Value?">
+          <option value="%">percent</option>
+          <option value="px">pixel</option>
+        </select>
         border-radius:
-        <input type="text" class="input" id="input1" placeholder="10" />px
-        <input type="text" class="input" id="input2" placeholder="10" />px
-        <input type="text" class="input" id="input3" placeholder="10" />px
-        <input type="text" class="input" id="input4" placeholder="10" />px;
+          <input type='text' class='input-el' placeholder='Enter percent'>
+        <span class="value-input">%</span>
       </div>
       <p class="alert toast">Click button to copy css!</p>
       <p class="css alert"></p>
@@ -25,6 +27,6 @@
       </button>
     </div>
     <script src="/assets/scripts.js"></script>
-
+    <script src="index.js"></script>
   </body>
 </html>

@@ -1,1 +1,25 @@
 @import url(/assets/styles.css);
+input{
+    width: 24px;
+}
+select{
+    width: fit-content;
+    padding: 0 5px;
+}
+.radius{
+    width: 800px;
+    height:800px;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+}
+.input-el{
+    width: 100%;
+    max-width: 160px;
+}
+.box{
+    display: flex;
+    width: auto;
+}
